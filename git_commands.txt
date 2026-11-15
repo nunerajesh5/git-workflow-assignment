@@ -1,0 +1,10 @@
+1. git init: Initializes a new local Git repository in the project folder.
+2. git add <file>: Stages new or modified files to prepare them for the next commit.
+3. git commit -m "<msg>": Saves a permanent snapshot of staged changes to repository history.
+4. git checkout -b feature: Creates a new branch named 'feature' and switches to it.
+5. git checkout main: Switches the active working branch back to 'main'.
+6. git merge feature: Merges changes from the 'feature' branch into the 'main' branch.
+7. git log --oneline --graph --all: Displays a compact visual history of all commits and branches.
+8. git reset --mixed HEAD~1: Undoes the last commit and unstages the changes while keeping files locally.
+9. git remote add origin <url>: Connects the local Git repository to a remote GitHub repository.
+10. git push -u origin main: Pushes local branch commits to the remote GitHub repository.
